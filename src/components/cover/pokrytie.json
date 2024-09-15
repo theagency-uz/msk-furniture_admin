@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_cover_pokrytie",
+  "info": {
+    "displayName": "Покрытие",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cover_type": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::cover-type.cover-type"
+    },
+    "colors": {
+      "displayName": "Цвета",
+      "type": "component",
+      "repeatable": true,
+      "component": "colors.czveta"
+    },
+    "previewImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "price": {
+      "type": "integer"
+    }
+  }
+}

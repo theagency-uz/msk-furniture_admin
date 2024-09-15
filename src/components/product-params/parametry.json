@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_product_params_parametry",
+  "info": {
+    "displayName": "Параметры"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    }
+  }
+}
