@@ -24,8 +24,10 @@ export interface CoverPokrytie extends Schema.Component {
       'api::cover-type.cover-type'
     >;
     colors: Attribute.Component<'colors.czveta', true>;
-    previewImage: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
-    images: Attribute.Media<'images' | 'files' | 'videos' | 'audios', true>;
+    previewImage: Attribute.Media<'images' | 'files' | 'videos' | 'audios'> &
+      Attribute.Required;
+    images: Attribute.Media<'images' | 'files' | 'videos' | 'audios', true> &
+      Attribute.Required;
     price: Attribute.Integer;
   };
 }
