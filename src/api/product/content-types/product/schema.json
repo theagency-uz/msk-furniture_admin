@@ -108,6 +108,14 @@
         }
       },
       "component": "cover.pokrytie"
+    },
+    "priceType": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }
