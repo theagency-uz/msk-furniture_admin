@@ -933,6 +933,8 @@ export interface ApiContactContact extends Schema.SingleType {
     instagram: Attribute.String;
     telegram: Attribute.String;
     address: Attribute.String;
+    whatsapp: Attribute.String;
+    email: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

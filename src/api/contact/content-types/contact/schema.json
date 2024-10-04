@@ -23,6 +23,12 @@
     },
     "address": {
       "type": "string"
+    },
+    "whatsapp": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
     }
   }
 }
